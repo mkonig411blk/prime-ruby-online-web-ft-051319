@@ -1,5 +1,7 @@
 def prime?(num)
-  if (num % ) == 0
-  num.prime? do |num|
+  if (num % int) == 0
+  return TRUE
+else
+  return false
   end
 end
