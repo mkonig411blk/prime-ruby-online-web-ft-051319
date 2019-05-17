@@ -4,9 +4,9 @@ def prime?(number)
   (start..number).each do |no|
     (start..no).each do |num|
   if (no % num) == 0 && num != no
-  return TRUE
-else
   return false
+else
+  return true
   end
 end
 end
