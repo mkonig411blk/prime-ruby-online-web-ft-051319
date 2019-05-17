@@ -1,13 +1,9 @@
 def prime?(number)
-  start = 2
-  primes = (start..number).to_a
-  (start..number).each do |no|
-    (start..no).each do |num|
-  if (no % num) == 0 && num != no && num < 0
-  return false
-else
-  return true
-  end
+  if n <= 1 
+    return false
+  else
+    (2..n-1).to_a.all? do |num|
+n % num != 0 
 end
 end
 end
