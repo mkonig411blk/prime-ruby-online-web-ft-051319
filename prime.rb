@@ -1,4 +1,4 @@
-def prime?(num)
+def prime?(number)
   start = 2
   primes = (start..number).to_a
   (start..number).each do |no|
