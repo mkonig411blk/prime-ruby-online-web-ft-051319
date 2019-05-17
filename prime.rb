@@ -1,4 +1,3 @@
 def prime?(num)
-  num.each do |num|
-    if num
+  num.prime? do |num|
 end
